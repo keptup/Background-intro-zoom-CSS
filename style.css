@@ -19,6 +19,15 @@
 	animation: zoom-in 1s;
 }
 
+@keyframes zoom-in {
+	0% {
+		background-size: 120% auto;
+	}
+	100% {
+		background-size: 100% auto;
+	}
+}
+
 .hero-section__center-container {
   margin: 0 6em;
   display: flex;
@@ -38,39 +47,6 @@
   color: #fff;
   font-family: sans-serif;
   font-size: 48px;
-}
-
-@-webkit-keyframes zoom {
-  0% {
-    background-size: auto 140%;
-  }
-  100% {
-    background-size: auto 120%;
-  }
-}
-@-moz-keyframes zoom {
-  0% {
-    background-size: auto 140%;
-  }
-  100% {
-    background-size: auto 120%;
-  }
-}
-@-o-keyframes zoom {
-  0% {
-    background-size: auto 140%;
-  }
-  100% {
-    background-size: auto 120%;
-  }
-}
-@keyframes zoom {
-  0% {
-    background-size: auto 140%;
-  }
-  100% {
-    background-size: auto 120%;
-  }
 }
 
 @-webkit-keyframes zoomText {
