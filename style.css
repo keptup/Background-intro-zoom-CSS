@@ -34,3 +34,13 @@
 	position: absolute;
 	animation: fadeout 1s;
 }
+
+@keyframes fadeout {
+	0% {
+		background-color: black;
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
