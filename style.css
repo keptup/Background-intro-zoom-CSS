@@ -57,3 +57,12 @@
 .center-container img h3 {
 	animation: revealText 1s;
 }
+
+@keyframes revealText {
+	0% {
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
