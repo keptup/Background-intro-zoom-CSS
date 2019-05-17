@@ -44,3 +44,16 @@
 		opacity: 0;
 	}
 }
+
+.center-container img {
+	display: block;
+	width: 9rem;
+}
+
+.center-container h3 {
+	font-size: 30px;
+}
+
+.center-container img h3 {
+	animation: revealText 1s;
+}
